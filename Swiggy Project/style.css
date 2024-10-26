@@ -1,0 +1,339 @@
+#nav{
+    background-color: #FE5005;
+    height: 104px;
+    font-weight: 650;
+
+
+    #set{
+        margin: 10px;
+        font-size: 14px;
+    }
+}
+
+#nav button{
+    color:#FFFFFF;
+    border: 0px;
+}
+
+
+
+.link{
+   text-decoration: none;
+   color: white;
+}
+
+
+#color{
+    background-color: #FE5005;
+}
+
+
+.im{
+    display: flex;
+    align-items: flex-end;
+}
+
+
+#drop{
+    display: flex;
+    justify-content: space-around; 
+}
+
+
+#about{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    font-size: 20px;
+    h1{
+        font-weight: bolder;
+        
+        
+    }
+    
+    animation: upper;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes upper{
+
+    0%{
+        bottom: -310px;
+    }
+    100%{
+        bottom: 0px;
+    }
+
+}
+
+#btn{
+    display: flex;
+    justify-content: end;
+}
+
+
+#indus{
+    color:#8D8F91;
+    font-size: 23px;
+    
+}
+
+#rok{
+    width:540px;
+    height: 396px;
+}
+
+#pio{
+    font-size:22px ;
+    font-weight: bold;
+}
+
+.green{
+    color: #1BA672;
+    font-weight: bold;
+}
+
+#pera p{
+
+    color: #8D8F91;
+    display: flex;
+    justify-content: center;
+
+}
+
+#pera h1{
+    display: flex;
+    justify-content: center;
+}
+
+.last{
+    display: flex;
+    justify-content: right;
+    font-weight: bold;
+    align-items: center;
+}
+
+
+#anch a{
+    text-decoration: none;
+    color:#8D8F91;
+    transition: all;
+}
+
+
+#anch a:hover{
+   color: black ;
+   
+}
+
+i:hover{
+    color: #FE5005;
+    
+}
+
+#bike{
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    animation-name:lefttoright;
+    animation-duration:2s;
+    animation-iteration-count:1;
+}
+
+@keyframes lefttoright{
+    0%{
+        left: -310px;
+    }
+    100%{
+        left: 0px;
+    }
+}
+
+#basket{
+
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+    animation-name: righttoleft;
+    animation-duration:2s;
+    animation-iteration-count:1;
+}
+
+@keyframes righttoleft{
+
+    0%{
+        right: -310px;
+    }
+    100%{
+        right: 0px;
+    }
+
+}
+
+
+
+#pills-tabs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    animation-name: pill;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    padding-top: 0px;     
+}
+
+@keyframes pill{
+    0%{
+       padding-top: 20%;
+    }
+
+    100%{
+        padding-top:0%;
+    }
+}
+#pills-tabs li{
+    margin: 0 40px;
+}
+#pills-tabs li  > .nav-link{
+    padding: 10px 30x;
+    
+    border-radius: 30px;
+    color:#8D8F91 ;
+    font-weight: 500;
+    border: 1px solid #8D8F91;
+    background-color: white; 
+    transition: all;
+}
+#pills-tabs li  > .nav-link:focus{
+    background-color: #FE5005;
+    color: white;
+}
+
+
+.hp{
+    color: #8D8F91;
+}
+#text{   
+    position: relative;   
+    animation-name: don;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+@keyframes don{
+    0%{
+        top : 330px
+    }
+    100%{
+        top: 0px;
+    }
+}
+
+
+#nakul{
+    font-weight: 500;
+    color:#8D8F91;
+    background-color: white;
+    border: 1px solid #8D8F91;
+    border-radius: 20px;
+    margin: 10px;
+}
+#nakul:focus{
+    background-color: #FE5005;
+    color: white;
+}
+
+.card-img-top{
+    height: 217px;
+    transition: 0.25s ease;
+    overflow: hidden;
+   
+       
+}
+
+.card-img-top:hover{
+    transform: scale(1.1);
+}
+
+
+
+#name{
+    height:100%;
+    width: 100%;
+}
+
+
+
+#disp{
+   margin-top: 30px;
+    
+  
+}
+
+
+#ban{
+    background-color:#15191E;
+    height: 251px;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+   
+
+    h5{
+        color:#FE5005;
+        
+    }
+
+    h4{
+        color: white;
+    }
+
+    button{
+        background-color: #FE5005;
+        border-radius: 10px;
+
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
